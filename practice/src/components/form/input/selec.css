@@ -1,0 +1,16 @@
+.select___container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 30px;
+}
+
+.select__input{
+    width: 270px;
+    border: none;
+    margin: 15px 0px 0px 0px;
+    height: 2.5em;
+    border-radius:.7em;
+    padding: 0px 0px 0px 20px;
+    color: #33b4eb;
+}

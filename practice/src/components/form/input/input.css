@@ -1,0 +1,27 @@
+.input__contend{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 30px;
+}
+
+.label__input{
+    color: rgb(0, 0, 0);
+    margin: 5px 0px;
+    display: flex;
+}
+
+.input{
+    border: none;
+    outline: none;
+    border-radius: .5em;
+    width: 270px;
+    height: 2.5em;
+    margin: 15px 0px 5px 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+input::focus{
+    outline: solid 2px #1b97f0;
+}
