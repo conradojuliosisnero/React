@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-grow: 2;
+    justify-content: center;
 }
 
 .button{
@@ -9,11 +10,13 @@
     height: 35px;
     border-radius: .7em;
     border:none;
-    margin: 0px 0px 0px 30px;
-    transition: background-color .2s ease;
+    background-color: #4193df;
+    transition: all .2s;
     cursor: pointer;
+    color: white;
 }
 
-button::hover{
-    background-color: rgb(24, 152, 232);
+button:hover{
+    background-color: rgb(21, 120, 182);
+    box-shadow: 0px 3px 15px 0px rgb(138, 137, 137);
 }
